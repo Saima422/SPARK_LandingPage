@@ -15,3 +15,38 @@ body{
     justify-content: space-between;
 }
 
+/* .profile,.image,.profilecard,.name,.links{
+    border:2px solid red;
+} */
+
+.image{
+    border-radius: 50%;
+    width:400px;
+    margin:0px auto;
+
+}
+
+
+.profilecard{
+    display: flex;
+    flex-direction: column;
+    width:30%;
+    height:auto;
+    border:2px solid black;
+    justify-content: center;
+}
+.links{
+    display: flex;
+    font-size: 30px;
+    justify-content: space-evenly;
+    border-radius: 50%;
+}
+
+.profile{
+    width:80%;
+    margin:0px auto;
+}
+
+.profilecard1{
+    float: right;
+}
