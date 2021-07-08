@@ -1,0 +1,17 @@
+body{
+    margin:0px;
+    padding:0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header{
+    position: sticky;
+    top:0px;
+    left:0px;
+}
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+}
+
