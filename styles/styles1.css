@@ -10,12 +10,13 @@ header{
   justify-content: space-between;
   align-items: center;
   background-color: rgb(72,31,125);
-  padding-top: 5px;
+  padding-top: 10px;
   padding-right:10px;
+  width: 100%;
 }
 
 .companyLogo{
-    padding-left: 10px;
+    padding-left: 30px;
 }
 
 .navContainer {
@@ -25,7 +26,7 @@ header{
 }
 .navItem {
   list-style: none;
-  font-size: 0.67rem;
+  font-size: 1.6rem;
   padding: 0px 10px;
   border-left: 0.5px solid white;
 }
@@ -35,7 +36,7 @@ header{
   text-transform: uppercase;
 }
 .navLink:hover {
-  font-size: 1rem;
+  font-size: 2rem;
 }
 
 /* end of navigation */
@@ -62,7 +63,7 @@ footer{
 }
 
 footer p{
-    font-size: 0.5rem;
+    font-size: 1.2rem;
 }
 
 .footerContainer {
@@ -72,10 +73,11 @@ footer p{
   }
 .footerItem {
     list-style: none;
-    font-size: 0.67rem;
+    font-size: 1.5rem;
     padding: 0px 10px;
   }
 .footerLink {
     text-decoration: none;
     color: white;
   }
+/* end of Footer */
