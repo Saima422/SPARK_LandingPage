@@ -56,7 +56,7 @@
                     <a href="#" class="navLink">Our Team</a>
                 </li>
                 <li class="navItem">
-                    <a href="#" class="navLink btn">Contact Us</a>
+                    <a href="#" class="navLink">Contact Us</a>
                 </li>
             </ul>
         </div>
@@ -362,19 +362,26 @@
 
         <!-- Contact Us -->
         <section class="contactUs">
-            <div class="ContactUsHeader">
+            <div class="contactUsHeader">
                 <h1>Contact Us</h1>
             </div>
             <div>
                 <form action="">
-                    <input type="text" name="firstName" id="" placeholder="First Name*">
-                    <input type="text" name="lastName" id="" placeholder="Last Name*">
-                    <input type="text" name="company" id="" placeholder="Company*">
-                    <input type="text" name="jobTitle" id="" placeholder="Job title*">
-                    <input type="email" name="emailId" id="" placeholder="Work email*">
-                    <input type="tel" name="phoneNumber" id="" placeholder="Phone number (optional)">
-                    <textarea name="" id="" cols="70" rows="10" placeholder="How can we help you?"></textarea>
-                    <input type="submit" value="Submit" class="btn">
+                    <div class="input">
+                        <input type="text" name="firstName" id="" placeholder="First Name*" required class="inputItem">
+                        <input type="text" name="lastName" id="" placeholder="Last Name*" required class="inputItem">
+                        <input type="text" name="company" id="" placeholder="Company*" required class="inputItem">
+                        <input type="text" name="jobTitle" id="" placeholder="Job title*" required class="inputItem">
+
+                        <input type="email" name="emailId" id="" placeholder="Work email*" required class="inputItem">
+                        <input type="tel" name="phoneNumber" id="" placeholder="Phone number (optional)"
+                            class="inputItem">
+                    </div>
+                    <div class="requirement">
+                        <textarea name="requirement" id="" cols="70" rows="10" placeholder="How can we help you?"
+                            required></textarea>
+                        <input type="submit" value="Submit" class="btn">
+                    </div>
                 </form>
             </div>
         </section>
