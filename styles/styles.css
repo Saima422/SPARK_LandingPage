@@ -5,20 +5,18 @@ body{
     box-sizing: border-box;
 }
 
-
-
 .image{
     border-radius: 50%;
     width:200px;
     margin:10px auto;
 }
 
-
 .profile-card{
     border:2px solid white;
     border-radius: 10px;
     padding:20px;
 }
+
 .links{
     display: flex;
     font-size: 30px;
@@ -31,15 +29,11 @@ body{
     color:white;
 }
 
-
 .profile{
     margin:0px 5px;   
     display: flex;
     flex-wrap: wrap;
-
 }   
-
-
 
 .profile-heading,.our-work-heading{
     text-align: center;
@@ -70,7 +64,6 @@ body{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-
 }
 
 p{
@@ -88,7 +81,6 @@ p{
 }
 
 .project-description{
-    
     margin:0px auto;
 }
 
@@ -100,6 +92,7 @@ p{
     padding:5px;
     font-weight: bold;
 }
+
 .project-link:hover{
     background-color: purple;
 }
@@ -120,6 +113,7 @@ p{
 .project-name,.project-author,.project-link,.our-work-heading{
     color:black;
 }
+
 .projects{
     display: flex;
     justify-content: center;
@@ -129,4 +123,71 @@ p{
 .project{
     width: 45%;
     margin:0px 10px;
+    /* height: 200vh; */
+}
+
+.header{
+    position: sticky;
+    top:0px;
+    left:0px;
+}
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner{
+    width: 100vw;
+    height: 80vh;
+    /* opacity: 0.7; */
+    /* background-image: linear-gradient(#17171715,#481f7d3f); */
+    background-color: #481F7D;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: flex-start;
+    /* color: white; */
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+}
+
+/* .banner-heading{
+    font-size: 100px;
+    margin:10px 100px;
+    font-weight: bold;
+} */
+
+.banner-tagline{
+    margin:10px 100px;
+    font-family: 'Otomanopee One', sans-serif;
+}
+
+.banner-img{
+    position: absolute;
+    left: 1000px;
+    top: 100px;
+    opacity: 0.6;
+    border-radius: 30%;
+}
+
+.aboutus{
+    margin:100px;
+    height:auto;
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    /* border: 1px solid black; */
+}
+
+.mainimg{
+    height:500px;
+}
+
+.aboutus-main-content{
+    display:flex;
+    font-size:30px;
 }
