@@ -1,0 +1,41 @@
+.pageContainer{
+    position: relative;
+    height: 100%;
+    padding-bottom: 17vh;
+}
+
+header{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(72,31,125);
+  padding-top: 5px;
+  padding-right:10px;
+}
+
+.companyLogo{
+    padding-left: 10px;
+}
+
+.navContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navItem {
+  list-style: none;
+  font-size: 0.67rem;
+  padding: 0px 10px;
+  border-left: 0.5px solid white;
+}
+.navLink {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+}
+.navLink:hover {
+  font-size: 1rem;
+}
+
+
