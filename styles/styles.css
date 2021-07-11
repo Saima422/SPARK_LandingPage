@@ -14,7 +14,6 @@ body{
 .profile-heading,.our-work-heading{
     text-align: center;
     margin-top:0px;
-
 }
 
 
@@ -30,11 +29,16 @@ body{
     margin: 15px;
 }
 
-.profile1{
+/* .profile1{
     background-color: rgba(0, 0, 0, 0.8)
 
     
+} */
+
+.profile1,.profile-card,.project,.our-work{
+    border: 2px solid red;
 }
+
 .profile{
     margin-top:20px;   
     display: flex;
@@ -59,8 +63,8 @@ body{
 }
 
 .why-us{
-    background-color: black;
-    color:white;
+    /* background-color: black; */
+    color:black;
     opacity: 0.8;
 }
 
@@ -110,8 +114,8 @@ p{
 }   
 
 .our-work{
-    background-color: blueviolet;
-    color:white;
+    /* background-color: blueviolet; */
+    color:black;
 }
 
 
@@ -162,8 +166,8 @@ p{
     justify-content: center;
     align-content: flex-start;
     /* color: white; */
-    border-bottom-right-radius: 50%;
-    border-bottom-left-radius: 50%;
+    /* border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%; */
     background-size: 100%;
     background-repeat: no-repeat;
 
