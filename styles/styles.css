@@ -1,0 +1,207 @@
+body{
+    margin:0px;
+    padding:0px;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.image{
+    border-radius: 50%;
+    width:200px;
+    margin:10px auto;
+}
+
+.profile-heading,.our-work-heading{
+    text-align: center;
+    margin-top:0px;
+
+}
+
+
+.profile-card{
+    padding:20px;
+    
+}
+
+.links{
+    display: flex;
+    font-size: 30px;
+    justify-content: space-evenly;
+    margin: 15px;
+}
+
+.profile1{
+    background-color: rgba(0, 0, 0, 0.8)
+
+    
+}
+.profile{
+    margin-top:20px;   
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}   
+
+
+.user-link{
+    color:purple;
+}
+
+.profile-container{
+    margin:20px 10px;
+    background-color: white;
+}
+
+.why-us-heading,.profile-heading,.our-work{
+    text-align: center;
+    padding: 20px;
+}
+
+.why-us{
+    background-color: black;
+    color:white;
+    opacity: 0.8;
+}
+
+.why-us-content{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding:30px;
+}
+
+p{
+    font-size: 14px;
+}
+
+.why-us-para{
+    width: 300px;
+    height: 300px;
+    border: 2px solid black;
+    padding: 20px;
+    margin: 10px;
+    background-color: white;
+    color:black;
+}
+
+.project-description{
+    margin:0px auto;
+}
+
+.project-demo{
+    text-decoration: none;
+    color:black;
+    font-size: 15px;
+    border:2px solid black;
+    padding:5px;
+    font-weight: bold;
+}
+
+.project-link:hover{
+    background-color: purple;
+}
+
+.project-link{
+    width: 200px;
+    margin: 50px auto;
+    text-decoration: none;
+    border:2px solid black;
+}   
+
+.our-work{
+    background-color: blueviolet;
+    color:white;
+}
+
+
+
+.project-name,.project-author,.project-link,.our-work-heading{
+    color:black;
+}
+
+.project-name,.project-description,.project-link{
+    margin:10px;
+}
+
+.projects{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.project{
+    max-width: 40%;
+    margin:20px 10px;
+    padding:20px;
+    color:black;
+    background-color: white;
+    height: auto;
+    
+}
+
+.header{
+    position: sticky;
+    top:0px;
+    left:0px;
+}
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner{
+    width: 100vw;
+    height: 80vh;
+    /* opacity: 0.7; */
+    /* background-image: linear-gradient(#17171715,#481f7d3f); */
+    background-color: #481F7D;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: flex-start;
+    /* color: white; */
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+}
+
+/* .banner-heading{
+    font-size: 100px;
+    margin:10px 100px;
+    font-weight: bold;
+} */
+
+.banner-tagline{
+    margin:10px 100px;
+    font-family: 'Otomanopee One', sans-serif;
+}
+
+.banner-img{
+    position: absolute;
+    left: 1000px;
+    top: 100px;
+    opacity: 0.6;
+    border-radius: 30%;
+}
+
+.aboutus{
+    margin:100px;
+    height:auto;
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    /* border: 1px solid black; */
+}
+
+.mainimg{
+    height:500px;
+}
+
+.aboutus-main-content{
+    display:flex;
+    font-size:30px;
+}

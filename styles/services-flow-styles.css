@@ -1,0 +1,130 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* services */
+.service-card{
+    width: 100%;
+    height: auto; 
+    background-image: linear-gradient(to right, rgb(83, 79, 79), rgb(0, 0, 0));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.service-card > h1{
+    font-size:  3em;
+    margin: 30px 0 20px;
+    color: white;
+}
+
+.service-card > p{
+    font-size: 1.5rem;
+    text-align: center;
+    color: white;
+}
+
+.services-container{
+    margin: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 100%;
+}
+
+.service-section{
+    max-width: 300px;
+    margin: 20px;
+    background-color: white;
+}   
+
+.service-section > img{
+    margin: 50px 25px 10px;
+    width: 30px;
+}
+
+.service-section > h1{
+    margin: 0 25px 10px;
+    font-size: 1.7rem;
+}
+
+.service-section > p{
+    margin: 0 25px 50px;
+    text-align: justify;
+}
+
+
+/* process */
+.process{
+    width: 100%;
+    height: auto; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #481F7D; */
+    background-image: linear-gradient(to right, #481F7D, #481f7d9c);
+}
+
+.process > h4{
+    margin: 50px 0 20px;
+    font-size: 1.5rem;
+    color: rgba(255, 255, 255, 0.856);
+}
+
+.process-heading{
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: rgb(255, 255, 255);
+}
+
+.process-container{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.process-section{
+    max-width: 300px;
+    max-height: 300px;
+    margin: 50px 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 25px;
+} 
+
+/* .process-section:hover{
+    max-width: 310px;
+    max-height: 320px; 
+} */
+
+.process-section > img{
+    margin:0 auto;
+    max-width: 80%;
+    height: auto;
+    transition: max-width .5s ease;
+}
+
+.process-section > img:hover{
+    max-width: 85%;
+}
+
+.process-section > h3{
+    margin: 20px auto;
+    font-size: 1.5rem;
+    transition: color 1s ease;
+}
+
+.process-section > h3:hover{
+    color: #FF005E;
+}
+
+.process-section > p{
+    margin: 0 auto;
+    text-align: center;
+}
