@@ -132,8 +132,11 @@
     text-align: center;
 }
 
+.services{
+    background-color: lightblue;
+}
 
-.services-container,.services,.service-card,.process-container,.process{
+/* .services-container,.services,.service-card,.process-container,.process{
     border:2px solid red;
     
-}
+} */

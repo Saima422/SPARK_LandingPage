@@ -87,7 +87,7 @@ bbody{
 
 .our-work{
     text-align: center;
-    background-color: rgba(77, 77, 209, 0.6);
+    /* background-color: rgba(77, 77, 209, 0.6); */
     /* background: linear-gradient(lightblue, white); */
 }
 
@@ -133,7 +133,8 @@ bbody{
 
 
 .profile1{
-    background-color: rgba(77, 77, 209, 0.7);
+    /* background-color: rgba(77, 77, 209, 0.7); */
+    background-color: lightblue;
 }
 
 .profile-card{
@@ -164,6 +165,7 @@ bbody{
 
 .user-link{
     color:purple;
+
 }
 
 .profile-container{
