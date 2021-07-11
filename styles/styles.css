@@ -1,83 +1,59 @@
-body{
-    margin:0px;
-    padding:0px;
-    font-family: 'Poppins', sans-serif;
-    box-sizing: border-box;
-}
-
-.image{
-    border-radius: 50%;
-    width:200px;
-    margin:10px auto;
-}
-
-.profile-card{
-    border:2px solid white;
-    border-radius: 10px;
-    padding:20px;
-}
-
-.links{
-    display: flex;
-    font-size: 30px;
-    justify-content: space-evenly;
-    margin-bottom: 10px;
-}
-
-.profile1{
-    background-color: black;
-    color:white;
-}
-
-.profile{
-    margin:0px 5px;   
-    display: flex;
-    flex-wrap: wrap;
-}   
-
-.profile-heading,.our-work-heading{
-    text-align: center;
-    margin:0px;
-}
-
-.user-link{
-    color:purple;
-}
-
-.profile-container{
-    display: flex;
-    justify-content: space-between;
-    margin:20px auto;
-    border-radius: 10px;
-}
-
-.why-us-heading,.profile-heading,.our-work{
-    text-align: center;
-}
-
 .why-us{
-    background-color: black;
-    color:white;
+    background-color: #312052;
+    color: white;
+    padding: 20px;
 }
 
 .why-us-content{
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
+    margin:20px;
+}
+
+.why-us-heading{
+    margin: 0px;
+    text-align: center;
+    padding: 20px;
+    font-size: 3rem;
+}
+
+.why-us-content-heading{
+    color: #E8537F;
+    transition: color 1s ease;
+}
+
+.why-us-content-heading:hover{
+    color: white;
+}
+
+.li-box{
+    width:45%;
+    height: auto;
+    margin:20px;
+    display: flex;
     flex-wrap: wrap;
 }
 
-p{
-    font-size: 14px;
+
+@media only screen and (max-width: 590px) {
+    .li-box{
+        width:100%;
+    }
+    .why-us-img{
+        display: none;
+    }
+  }
+
+
+.why-us-img{
+    width:100%;
+    margin:10px;
 }
 
-.why-us-para{
-    width: 300px;
-    border: 2px solid black;
-    padding: 10px;
-    height: auto;
-    margin: 10px;
-    background-color: white;
-    color:black;
+.why-us-li{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 30px;
 }
 
 .project-description{
@@ -88,7 +64,6 @@ p{
     text-decoration: none;
     color:black;
     font-size: 15px;
-    border:2px solid black;
     padding:5px;
     font-weight: bold;
 }
@@ -99,19 +74,33 @@ p{
 
 .project-link{
     width: 200px;
-    margin: 20px auto;
+    margin: 50px auto;
     text-decoration: none;
     border:2px solid black;
+    color:black;
 }   
 
 .our-work{
-    background-color: blueviolet;
-    color:white;
+    text-align: center;
+    margin-bottom: 30px;
 }
 
+hr{
+    width: 40%;
+    height: 5px;
+    border: none;
+    background-color: #312052;
+    margin: 0 auto;
+}
 
-.project-name,.project-author,.project-link,.our-work-heading{
-    color:black;
+.our-work-heading{
+    color:#312052; 
+    font-size: 3rem;
+    margin: 20px;
+}
+
+.project-name,.project-description,.project-link{
+    margin:10px;
 }
 
 .projects{
@@ -121,73 +110,133 @@ p{
 }
 
 .project{
-    width: 45%;
-    margin:0px 10px;
-    /* height: 200vh; */
+    max-width: 40%;
+    margin:20px 10px;
+    padding:20px;
+    color: #312052;
+    height: auto;
+    border: 5px solid #E8537F;
+    opacity: 0.9;
 }
 
-.header{
-    position: sticky;
-    top:0px;
-    left:0px;
+
+.image{
+    border-radius: 50%;
+    width:150px;
+    margin:10px auto;
 }
 
-.navigation{
+.profile-heading-title{
+    text-align: center;
+    padding:20px;
+    margin: 20px;
+    color: white;
+    font-size: 3rem;
+}
+
+.profile-heading{
+    text-align: center;
+    padding: 10px;
+} 
+
+.profile-heading > h3{
+    font-size: 1.5rem;
+    margin: 10px;
+}
+
+.profile1{
+    background-color: #312052;
+    padding-bottom: 50px;
+}
+
+.profile-card{
+    padding:10px;
+    color: black;
+}
+
+.profile{
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: center;
+}   
+
+.links{
+    display: flex;
+    font-size: 30px;
+    justify-content: space-evenly;
+    margin: 5px 10px 10px;
+}
+
+.user-link{
+    color:#E8537F;
+    padding: 5px;
+    margin: 0 5px;
+    transition: color 1s ease;
+}
+
+.user-link:hover{
+    color:#312052;
+}
+
+.profile-container{
+    margin:10px 10px;
+    background-color: rgb(255, 255, 255);
+    opacity: 0.9;
 }
 
 .banner{
-    width: 100vw;
+    width: 100%;
     height: 80vh;
-    /* opacity: 0.7; */
-    /* background-image: linear-gradient(#17171715,#481f7d3f); */
-    background-color: #481F7D;
+    background: #312052;
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    align-content: flex-start;
-    /* color: white; */
-    border-bottom-right-radius: 50%;
-    border-bottom-left-radius: 50%;
+    align-items: center;
+    color: white;
     background-size: 100%;
-    background-repeat: no-repeat;
-
 }
 
-/* .banner-heading{
-    font-size: 100px;
-    margin:10px 100px;
-    font-weight: bold;
-} */
+.banner > img{
+    width: 700px;
+}
+
+.banner > p{
+    font-size: 3rem;
+}
+
+.banner > p > span{
+    font-size: 4rem;
+    color: #E8537F;
+}
 
 .banner-tagline{
     margin:10px 100px;
     font-family: 'Otomanopee One', sans-serif;
 }
 
-.banner-img{
-    position: absolute;
-    left: 1000px;
-    top: 100px;
-    opacity: 0.6;
-    border-radius: 30%;
-}
-
 .aboutus{
-    margin:100px;
     height:auto;
     display:flex;
     flex-direction: column;
-    align-items:center;
-    /* border: 1px solid black; */
+    align-items:center; 
+    width: 50vw;
+    margin: -60px auto 0;
+    background-color: #E8537F;
 }
 
-.mainimg{
-    height:500px;
+.about-container{
+    background: #312052;
+    padding: 50px;
+}
+
+.aboutus-heading{
+    color: white;
+    padding-top: 20px;
 }
 
 .aboutus-main-content{
-    display:flex;
-    font-size:30px;
+    text-align: center;
+    font-size: 1.3rem;
+    color: white;
+    max-width: 90%;
+    margin: 10px auto 30px;
 }
