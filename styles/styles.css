@@ -1,93 +1,65 @@
-body{
+bbody{
+    box-sizing: border-box;
     margin:0px;
     padding:0px;
     font-family: 'Poppins', sans-serif;
-    box-sizing: border-box;
 }
 
-.image{
-    border-radius: 50%;
-    width:200px;
-    margin:10px auto;
-}
-
-.profile-heading,.our-work-heading{
-    text-align: center;
-    margin-top:0px;
-}
-
-
-.profile-card{
-    padding:20px;
-    
-}
-
-.links{
-    display: flex;
-    font-size: 30px;
-    justify-content: space-evenly;
-    margin: 15px;
-}
-
-/* .profile1{
-    background-color: rgba(0, 0, 0, 0.8)
-
-    
-} */
-
-.profile1,.profile-card,.project,.our-work{
-    border: 2px solid red;
-}
-
-.profile{
-    margin-top:20px;   
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    
-}   
-
-
-.user-link{
-    color:purple;
-}
-
-.profile-container{
-    margin:20px 10px;
-    background-color: white;
-}
-
-.why-us-heading,.profile-heading,.our-work{
-    text-align: center;
-    padding: 20px;
-}
 
 .why-us{
-    /* background-color: black; */
-    color:black;
-    opacity: 0.8;
+    background-color: lightblue;
+  
 }
+
+
 
 .why-us-content{
     display: flex;
-    justify-content: center;
     flex-wrap: wrap;
-    padding:30px;
+    margin:20px;
 }
 
-p{
-    font-size: 14px;
-}
-
-.why-us-para{
-    width: 300px;
-    height: 300px;
-    border: 2px solid black;
+.why-us-heading{
+    margin: 0px;
+    text-align: center;
     padding: 20px;
-    margin: 10px;
-    background-color: white;
-    color:black;
+
 }
+
+.li-box{
+    width:45%;
+    height: auto;
+    margin:20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+@media only screen and (max-width: 590px) {
+    .li-box{
+        width:100%;
+    }
+    .why-us-img{
+        display: none;
+    }
+ 
+  }
+
+
+.why-us-img{
+    width:100%;
+    margin:10px;
+
+}
+
+
+
+.why-us-li{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
 
 .project-description{
     margin:0px auto;
@@ -97,7 +69,6 @@ p{
     text-decoration: none;
     color:black;
     font-size: 15px;
-    border:2px solid black;
     padding:5px;
     font-weight: bold;
 }
@@ -111,18 +82,20 @@ p{
     margin: 50px auto;
     text-decoration: none;
     border:2px solid black;
+    color:black;
 }   
 
 .our-work{
-    /* background-color: blueviolet; */
-    color:black;
+    text-align: center;
+    background-color: rgba(77, 77, 209, 0.6);
+    /* background: linear-gradient(lightblue, white); */
 }
 
 
 
-.project-name,.project-author,.project-link,.our-work-heading{
+/* .project-name,.project-author,.project-link,.our-work-heading{
     color:black;
-}
+} */
 
 .project-name,.project-description,.project-link{
     margin:10px;
@@ -139,20 +112,64 @@ p{
     margin:20px 10px;
     padding:20px;
     color:black;
-    background-color: white;
     height: auto;
-    
+    border:2px solid black;
+    background-color: white;
+    opacity: 0.9;
 }
 
-.header{
-    position: sticky;
-    top:0px;
-    left:0px;
+
+.image{
+    border-radius: 50%;
+    width:200px;
+    margin:10px auto;
 }
 
-.navigation{
+.profile-heading{
+    text-align: center;
+    padding:20px;
+    margin:0px;
+}
+
+
+.profile1{
+    background-color: rgba(77, 77, 209, 0.7);
+}
+
+.profile-card{
+    padding:20px;
+    border:2px solid black;
+}
+
+.links{
     display: flex;
-    justify-content: space-between;
+    font-size: 30px;
+    justify-content: space-evenly;
+    margin: 15px;
+}
+
+
+.profile{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}   
+.links{
+    display: flex;
+    font-size: 30px;
+    justify-content: space-evenly;
+    margin: 15px;
+}
+
+.user-link{
+    color:purple;
+}
+
+.profile-container{
+    margin:10px 10px;
+    background-color: white;
+    opacity: 0.9;
 }
 
 .banner{
