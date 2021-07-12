@@ -33,12 +33,18 @@
     display: flex;
     flex-wrap: wrap;
 }
-
+a{
+    text-decoration: none;
+}
 @media only screen and (max-width:1166px){
   
     .project{
         display: flex;
         flex-direction: column;
+    }
+    .project-content{
+        width: 100%;
+     
     }
     .project-description{
         width:500px;
@@ -53,6 +59,29 @@
         display: none;
     }
   }
+
+  .hidden{
+      display: none;
+  }
+  a .humburger{
+      font-size: 30px;
+      color:#E8537F;
+  }
+
+  @media only screen and (max-width: 1200px) {
+    .hidden{
+        display: block;
+        
+    }
+    .nav .navContainer{
+        display: none;
+    }
+    .nav{
+        display: flex;
+        justify-content: space-evenly;
+    }
+  }
+
 
 
 .why-us-img{
@@ -95,7 +124,6 @@
 .our-work{
     text-align: center;
     margin-bottom: 30px;
-    padding:70px;
 }
 
 hr{
@@ -110,6 +138,8 @@ hr{
     color:#312052; 
     font-size: 3rem;
     margin: 20px;
+    padding-top: 70px;
+    text-align: center;
 }
 
 .project-name,.project-description,.project-link{
@@ -145,7 +175,6 @@ hr{
     justify-content: space-around;
     color: #312052;
     height: auto;
-    
     opacity: 0.9;
 }
 
