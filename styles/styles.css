@@ -1,7 +1,7 @@
 .why-us{
     background-color: #312052;
     color: white;
-    padding: 70px;
+
 }
 
 .why-us-content{
@@ -37,19 +37,18 @@ a{
     text-decoration: none;
 }
 @media only screen and (max-width:1166px){
-  
+    
     .project{
         display: flex;
-        flex-direction: column;
+        
+        flex-wrap: wrap;
     }
-    .project-content{
-        width: 100%;
-     
-    }
-    .project-description{
-        width:500px;
-    }
+    
 }
+
+
+
+
 
 @media only screen and (max-width: 590px) {
     .li-box{
@@ -92,7 +91,7 @@ a{
 .why-us-li{
     display: flex;
     justify-content: space-evenly;
-    margin: 30px;
+    /* margin: 30px; */
 }
 
 .project-description{
@@ -124,6 +123,7 @@ a{
 .our-work{
     text-align: center;
     margin-bottom: 30px;
+    width:100%;
 }
 
 hr{
@@ -185,7 +185,7 @@ hr{
 }
 
 .project-img{
-    width:600px;
+    width:500px;
 }
 
 .profile1{
@@ -256,6 +256,12 @@ hr{
     opacity: 0.9;
 }
 
+
+
+
+
+
+
 .banner{
     width: 100%;
     height: 55vh;
@@ -270,6 +276,25 @@ hr{
 .banner > img{
     width: 600px;
 }
+
+@media only screen and (max-width: 1153px) {
+    .banner >img{
+        width: 50%;
+    }
+    .banner-tagline{
+       
+        margin:0px;
+    }
+    .banner{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+}
+
+
+
+
 
 .banner > p{
     font-size: 3rem;
@@ -317,3 +342,36 @@ hr{
     max-width: 90%;
     margin: 10px auto 30px;
 }
+
+
+@media only screen and (max-width:992px){
+    
+    .project{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        margin: 0px;
+        padding:0px;
+    }
+    .project-content{
+        width:90%;
+        margin:10px auto;
+    }
+    .project-image{
+        width:90%;
+
+    }
+
+}
+
+@media only screen and (max-width:521px){
+    .project-image{
+        margin: auto;
+    }
+    
+    .project-img{
+        width:100%;
+
+    }
+}
+
