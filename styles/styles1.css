@@ -57,7 +57,7 @@ header{
 .contactUsHeader{
     font-size: 2rem;
     text-align: center;
-    width: 17vw;
+    width: 100%;
     margin: 0 auto 30px;
     color: E8537F;
     font-family: 'Dosis', sans-serif;
@@ -123,15 +123,18 @@ textarea{
     width: 100%;
     background-color:#312052;
     color: white;
+    display: flex;
+    justify-content: center;
 }
 
-.footer > p{
-  font-size: 1.2rem;
-  display: inline-block;
-  margin-left: 45.5%;
+.footer > span{
+  font-size: 1.2rem; 
+  /* margin-left: 45.5%; */
 }
 
 .footer > img{
   width: 80px;
   margin-bottom: -6px;
 }
+
+
