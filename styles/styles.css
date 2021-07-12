@@ -1,7 +1,6 @@
 .why-us{
     background-color: #312052;
     color: white;
-    padding: 20px;
 }
 
 .why-us-content{
@@ -33,7 +32,18 @@
     display: flex;
     flex-wrap: wrap;
 }
-
+a{
+    text-decoration: none;
+}
+@media only screen and (max-width:1166px){
+    
+    .project{
+        display: flex;
+        
+        flex-wrap: wrap;
+    }
+    
+}
 
 @media only screen and (max-width: 590px) {
     .li-box{
@@ -44,16 +54,41 @@
     }
   }
 
+  .hidden{
+      display: none;
+      width: auto;
+  }
+
+  a .humburger{
+      font-size: 30px;
+      color:white;
+  }
+
+  @media only screen and (max-width: 1200px) {
+    .hidden{
+        display: inline-block;      
+    }
+    .nav .navContainer{
+        display: none;
+    }
+    .nav{
+        display: flex;
+        justify-content: space-evenly;
+    }
+  }
+
+.toggle{
+    margin-right: 20px;
+}
 
 .why-us-img{
-    width:100%;
+    width:90%;
     margin:10px;
 }
 
 .why-us-li{
     display: flex;
     justify-content: space-evenly;
-    margin: 30px;
 }
 
 .project-description{
@@ -69,20 +104,25 @@
 }
 
 .project-link:hover{
-    background-color: purple;
+    background-color: #312052;
+    color:white;
+    border-color: #312052;
 }
 
 .project-link{
-    width: 200px;
+    
     margin: 50px auto;
+    display: inline-block;
     text-decoration: none;
     border:2px solid black;
     color:black;
+    padding:5px 10px;
 }   
 
 .our-work{
     text-align: center;
     margin-bottom: 30px;
+    width:100%;
 }
 
 hr{
@@ -97,10 +137,16 @@ hr{
     color:#312052; 
     font-size: 3rem;
     margin: 20px;
+    text-align: center;
 }
 
 .project-name,.project-description,.project-link{
     margin:10px;
+}
+
+.project-name{
+    font-size: 2rem;
+    color: #E8537F;
 }
 
 .projects{
@@ -109,16 +155,40 @@ hr{
     flex-wrap: wrap;
 }
 
+.project-description{
+    text-align: justify ;
+    padding:10px 0px;
+}
+
+.project-content{
+    width:40%;
+    font-size: 1.2rem;
+
+}
 .project{
-    max-width: 40%;
+    display: flex;
+    flex-wrap: wrap;
     margin:20px 10px;
     padding:20px;
+    justify-content: space-around;
     color: #312052;
     height: auto;
-    border: 5px solid #E8537F;
     opacity: 0.9;
 }
 
+.project-image{
+
+    width: 50%;
+
+}
+
+.project-img{
+    width:500px;
+}
+
+.profile1{
+    padding:70px;
+}
 
 .image{
     border-radius: 50%;
@@ -186,7 +256,6 @@ hr{
 
 .banner{
     width: 100%;
-    height: 55vh;
     background: #312052;
     display: flex;
     justify-content: center;
@@ -197,6 +266,21 @@ hr{
 
 .banner > img{
     width: 600px;
+}
+
+@media only screen and (max-width: 1153px) {
+    .banner >img{
+        width: 50%;
+    }
+    .banner-tagline{
+       
+        margin:0px;
+    }
+    .banner{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
 }
 
 .banner > p{
@@ -211,6 +295,7 @@ hr{
 .banner-tagline{
     margin:10px 100px;
     font-family: 'Otomanopee One', sans-serif;
+    text-align: center;
 }
 
 .aboutus{
@@ -221,6 +306,7 @@ hr{
     width: 50vw;
     margin: -60px auto 0;
     background-color: #E8537F;
+    /* padding-top:70px; */
 }
 
 .aboutus:hover{
@@ -244,3 +330,32 @@ hr{
     max-width: 90%;
     margin: 10px auto 30px;
 }
+
+@media only screen and (max-width:992px){
+    
+    .project{
+        display: flex;
+        flex-direction: column-reverse;
+        align-content: center;
+        margin: 0px;
+        padding:0px;
+    }
+    .project-content{
+        width:90%;
+        margin:10px auto;
+    }
+    .project-image{
+        width:90%;
+    }
+}
+
+@media only screen and (max-width:521px){
+    .project-image{
+        margin: auto;
+    }
+    
+    .project-img{
+        width:100%;
+    }
+}
+
