@@ -210,7 +210,7 @@ hr{
 
 .banner{
     width: 100%;
-    height: 80vh;
+    height: 55vh;
     background: #312052;
     display: flex;
     justify-content: center;
@@ -220,7 +220,7 @@ hr{
 }
 
 .banner > img{
-    width: 700px;
+    width: 600px;
 }
 
 .banner > p{
@@ -247,9 +247,13 @@ hr{
     background-color: #E8537F;
 }
 
+.aboutus:hover{
+    background-color: #ff5f8fd0;
+}
+
 .about-container{
     background: #312052;
-    padding: 50px;
+    padding: 60px 0 30px;
 }
 
 .aboutus-heading{

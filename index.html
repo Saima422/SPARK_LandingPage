@@ -28,43 +28,46 @@
     <!-- juilee -->
     <link rel="stylesheet" href="styles/styles1.css">
 
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bona+Nova&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Arvo&display=swap" rel="stylesheet">
 </head>
 
 <body>
+
     <!-- Navigation -->
     <header>
         <div class="companyLogo">
-            <img src="./images/logo2.png" alt="" width="180vw" class="Logo">
+            <img src="./images/logo1.png" alt="Spark Logo" class="Logo">
         </div>
-        <div>
+        <div class="nav">
             <ul class="navContainer">
                 <li class="navItem">
-                    <a href="#" class="navLink">About Us</a>
+                    <a href="#about" class="navLink">About Us</a>
                 </li>
                 <li class="navItem">
-                    <a href="#" class="navLink">Services</a>
+                    <a href="#services" class="navLink">Services</a>
                 </li>
                 <li class="navItem">
-                    <a href="#" class="navLink">Our Work</a>
+                    <a href="#work" class="navLink">Our Work</a>
                 </li>
                 <li class="navItem">
-                    <a href="#" class="navLink">Process</a>
+                    <a href="#whyus" class="navLink">Why Us</a>
                 </li>
                 <li class="navItem">
-                    <a href="#" class="navLink">Why Us?</a>
+                    <a href="#process" class="navLink">Process</a>
                 </li>
                 <li class="navItem">
-                    <a href="#" class="navLink">Our Team</a>
+                    <a href="#team" class="navLink">Our Team</a>
                 </li>
                 <li class="navItem">
-                    <a href="#" class="navLink">Contact Us</a>
+                    <a href="#contact" class="navLink">Contact Us</a>
                 </li>
             </ul>
         </div>
     </header>
-
-
-    <!-- End of Navigation -->
 
     <!-- Banner -->
     <div class="pageContainer">
@@ -73,12 +76,10 @@
                 We <span>Spark</span> Innovation
             </p>
             <img src="./images/innovation.svg" alt="innovation" class="mainimg" />
-
-            <!-- <img src="./assets/logo1.png" alt="banner" class="banner-img" /> -->
         </div>
 
         <!-- Who we are -->
-        <div class="about-container">
+        <div class="about-container" id="about">
             <div class="aboutus">
                 <h1 class="aboutus-heading">Who We Are</h1>
                 <div class="aboutus-main">
@@ -94,48 +95,38 @@
         </div>
 
         <!-- Services -->
-        <div class="services">
+        <div class="services" id="services">
             <div class="service-card">
                 <h1>Our Services</h1>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit consequatur nemo dolorem,
-                    praesentium sunt omnis.</p>
+                <p>SPARK has a Team of Individuals which expertise in different fields and provides YOU with various Services</p>
                 <div class="services-container">
 
                     <!-- UX Research -->
                     <div class="service-section">
-                        <img src="./images/icon1.svg" alt="UX Research">
-                        <!-- <i class="far fa-mobile"></i> -->
+                        <img src="./images/smartphone.png" alt="UX Research">
                         <h1>UX Research</h1>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam ea voluptatem sapiente
-                            commodi
-                            quae magni repellendus, aliquid voluptatum officiis itaque.</p>
+                        <p>Learning about project requirements, needs and goals of user and gathering data and synthesizing it in order to improve usability.</p>
                     </div>
 
                     <!-- Web Development -->
                     <div class="service-section">
-                        <img src="./images/icon2.svg" alt="Web Development">
+                        <img src="./images/window.png" alt="Web Development">
                         <h1>Web Development</h1>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam ea voluptatem sapiente
-                            commodi
-                            quae magni repellendus, aliquid voluptatum officiis itaque.</p>
+                        <p>Building Web Solutions for Clients to solve various requirements. Introducing unique features in the application to provide a better experience to end-user.</p>
                     </div>
 
                     <!-- App Design -->
                     <div class="service-section">
-                        <img src="./images/icon3.svg" alt="App Design">
+                        <img src="./images/iphone.png" alt="App Design">
                         <h1>App Design</h1>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam ea voluptatem sapiente
-                            commodi
-                            quae magni repellendus, aliquid voluptatum officiis itaque.</p>
+                        <p>Resonate with your customers and reinforce your brand by creating an intuitive app UI design where visitors feel emotionally connected. To appeal to human senses, we create subtle yet elegant, stylish and beautiful interface.</p>
                     </div>
 
                     <!-- Web Design -->
                     <div class="service-section">
-                        <img src="./images/icon4.svg" alt="Web Design">
+                        <img src="./images/web-design.png" alt="Web Design">
                         <h1>Web Design</h1>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam ea voluptatem sapiente
-                            commodi
-                            quae magni repellendus, aliquid voluptatum officiis itaque.</p>
+                        <p>Designing Attractive Web pages to attract users to your required business. Creating a user friendly web interface which is easy to use.</p>
                     </div>
                 </div>
             </div>
@@ -144,7 +135,7 @@
         <hr>
 
         <!-- Our Work -->
-        <div class="our-work">
+        <div class="our-work" id="work">
             <h1 class="our-work-heading">Our Work</h1>
             <div class="projects">
                 <div class="project">
@@ -224,7 +215,7 @@
         </div>
 
 
-        <div class="why-us">
+        <div class="why-us" id="whyus">
             <h1 class="why-us-heading">Why Spark?</h1>
 
             <li class="why-us-li">
@@ -245,20 +236,14 @@
                 </div>
                 <div class="why-us-content li-box">
                     <h1 class="why-us-content-heading">Specialized Marketing Team for your Product</h1>
-                    <p class="why-us-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et corrupti expedita
-                        eligendi quam fugit similique sint voluptates quasi repudiandae, neque voluptas earum natus
-                        placeat
-                        officia voluptatum ipsa excepturi magni nobis.</p>
+                    <p class="why-us-para">We understand your marketplace and competitors and define your firm’s market positioning, pricing and services and promote your business to your target audience and Identify benefit that you business might make.</p>
                 </div>
 
             </li>
             <li class="why-us-li">
                 <div class="why-us-content li-box">
                     <h1 class="why-us-content-heading">Flexibile</h1>
-                    <p class="why-us-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et corrupti expedita
-                        eligendi quam fugit similique sint voluptates quasi repudiandae, neque voluptas earum natus
-                        placeat
-                        officia voluptatum ipsa excepturi magni nobis.</p>
+                    <p class="why-us-para">We provide solution to every need in every situation addressing every customer effectively.</p>
                 </div>
                 <div class="why-us-image">
                     <img src="./images/whytools.svg" alt="" class="why-us-img">
@@ -280,7 +265,7 @@
         </div>
 
         <!-- Flow of Process -->
-        <div class="process">
+        <div class="process" id="process">
             <hr>
             <h4>PROCESS</h4>
             <h1 class="process-heading">Follow Our Process</h1>
@@ -290,57 +275,57 @@
                 <div class="process-section">
                     <img src="./images/planning.svg" alt="Planning">
                     <h3>Planning</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti, veritatis?</p>
+                    <p>Planning and determining what goals the new website needs to fulfill and its purpose.</p>
                 </div>
 
                 <!-- Design Section -->
                 <div class="process-section">
                     <img src="./images/design.svg" alt="Design">
                     <h3>Design</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, maxime.</p>
+                    <p>Defining the visual style from the ground up, of a website accounding to the client requirements</p>
                 </div>
 
                 <!-- Code Section -->
                 <div class="process-section">
                     <img src="./images/code.svg" alt="Code">
                     <h3>Code</h3>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus, quaerat!</p>
+                    <p>Making prototype, securing application and integrating an appropriate analytics tool.</p>
                 </div>
 
                 <!-- Launch Section -->
                 <div class="process-section">
                     <img src="./images/launch.svg" alt="Launch">
                     <h3>Launch</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus, pariatur!</p>
+                    <p>Planning the launch timing and communication strategies to Launch the site</p>
                 </div>
             </div>
         </div>
 
 
         <!-- Our Team -->
-        <div class="profile1">\
+        <div class="profile1" id="team">
             <hr>
             <h1 class="profile-heading-title">Our Team</h1>
             <div class="profile">
                 <div class="profile-container">
                     <div class="profile-card">
                         <div class="profile-heading">
-                            <img src="./images/IMG_20190928_021340_114.jpg" alt="Profile Pic" class="image">
-                            <h3>Pawan Sharma</h3>
+                            <img src="./images/saima.jpg" alt="Profile Pic" class="image">
+                            <h3>Saima Sayed</h3>
                             <h4>Associate Application Engineer</h4>
                         </div>
 
                         <div class="links">
-                            <a href="" class="user-link">
+                            <a href="https://www.facebook.com/sofiya.merchant.585/" class="user-link" target="_blank">
                                 <i class="fa fa-facebook"></i>
                             </a>
-                            <a href="" class="user-link">
+                            <a href="https://www.linkedin.com/in/saima-sayed-6482481b9/" class="user-link" target="_blank">
                                 <i class="fa fa-linkedin"></i>
                             </a>
-                            <a href="" class="user-link">
+                            <a href="https://github.com/Saima422" class="user-link" target="_blank">
                                 <i class="fa fa-github"></i>
                             </a>
-                            <a href="" class="user-link">
+                            <a href="saima.sayed@raweng.com" class="user-link" target="_blank">
                                 <i class="fa fa-envelope"></i>
                             </a>
                         </div>
@@ -355,16 +340,40 @@
                         </div>
 
                         <div class="links">
-                            <a href="" class="user-link">
+                            <a href="https://www.facebook.com/profile.php?id=100007052266455" class="user-link" target="_blank">
                                 <i class="fa fa-facebook"></i>
                             </a>
-                            <a href="" class="user-link">
+                            <a href="https://www.linkedin.com/in/pawan43563/" class="user-link" target="_blank">
                                 <i class="fa fa-linkedin"></i>
                             </a>
-                            <a href="" class="user-link">
+                            <a href="https://github.com/pawan43563" class="user-link" target="_blank">
                                 <i class="fa fa-github"></i>
                             </a>
-                            <a href="" class="user-link">
+                            <a href="pawan.sharma@raweng.com" class="user-link" target="_blank">
+                                <i class="fa fa-envelope"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="profile-container">
+                    <div class="profile-card">
+                        <div class="profile-heading">
+                            <img src="./images/juilee.jpeg" alt="Profile Pic" class="image">
+                            <h3>Juilee Bhombe</h3>
+                            <h4>Associate Application Engineer</h4>
+                        </div>
+
+                        <div class="links">
+                            <a href="#" class="user-link" target="_blank">
+                                <i class="fa fa-facebook"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/juilee-bhombe-071a5b168" class="user-link" target="_blank">
+                                <i class="fa fa-linkedin"></i>
+                            </a>
+                            <a href="https://github.com/Jui1710" class="user-link" target="_blank">
+                                <i class="fa fa-github"></i>
+                            </a>
+                            <a href="juilee.bhombe@raweng.com" class="user-link" target="_blank">
                                 <i class="fa fa-envelope"></i>
                             </a>
                         </div>
@@ -374,45 +383,21 @@
                     <div class="profile-card">
                         <div class="profile-heading">
                             <img src="./images/IMG_20190928_021340_114.jpg" alt="Profile Pic" class="image">
-                            <h3>Pawan Sharma</h3>
+                            <h3>Dheeraj Othalasseril</h3>
                             <h4>Associate Application Engineer</h4>
                         </div>
 
                         <div class="links">
-                            <a href="" class="user-link">
+                            <a href="" class="user-link" target="_blank">
                                 <i class="fa fa-facebook"></i>
                             </a>
-                            <a href="" class="user-link">
+                            <a href="https://www.linkedin.com/in/dheeraj-j-a4215413a/" class="user-link" target="_blank">
                                 <i class="fa fa-linkedin"></i>
                             </a>
-                            <a href="" class="user-link">
+                            <a href="https://github.com/dheerajjames" class="user-link" target="_blank">
                                 <i class="fa fa-github"></i>
                             </a>
-                            <a href="" class="user-link">
-                                <i class="fa fa-envelope"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="profile-container">
-                    <div class="profile-card">
-                        <div class="profile-heading">
-                            <img src="./images/IMG_20190928_021340_114.jpg" alt="Profile Pic" class="image">
-                            <h3>Pawan Sharma</h3>
-                            <h4>Associate Application Engineer</h4>
-                        </div>
-
-                        <div class="links">
-                            <a href="" class="user-link">
-                                <i class="fa fa-facebook"></i>
-                            </a>
-                            <a href="" class="user-link">
-                                <i class="fa fa-linkedin"></i>
-                            </a>
-                            <a href="" class="user-link">
-                                <i class="fa fa-github"></i>
-                            </a>
-                            <a href="" class="user-link">
+                            <a href="dheeraj.othalasseril@raweng.com" class="user-link" target="_blank">
                                 <i class="fa fa-envelope"></i>
                             </a>
                         </div>
@@ -423,11 +408,11 @@
 
 
         <!-- Contact Us -->
-        <section class="contactUs">
+        <section class="contactUs" id="contact">
             <div class="contactUsHeader">
                 <h1>Contact Us</h1>
             </div>
-            <div>
+            <div class="form-container">
                 <form action="">
                     <div class="input">
                         <input type="text" name="firstName" id="" placeholder="First Name*" required class="inputItem">
@@ -440,48 +425,20 @@
                             class="inputItem">
                     </div>
                     <div class="requirement">
-                        <textarea name="requirement" id="" cols="70" rows="10" placeholder="How can we help you?"
+                        <textarea name="requirement" id=""  placeholder="How can we help you?"
                             required></textarea>
                         <input type="submit" value="Submit" class="btn">
                     </div>
                 </form>
             </div>
         </section>
-        <!-- end of Contact Us -->
 
         <!-- Footer -->
         <footer>
             <div class="footer">
-                <img src="./images/logo2.png" alt="" width="200vw" class="Logo">
-                <p>Copyright &copy; 2021 Spark</p>
+                <p>&copy; 2021</p>
+                <img src="./images/logo1.png" alt="Spark Logo" class="Logo">
             </div>
-            <div>
-                <ul class="footerContainer">
-                    <li class="footerItem">
-                        <a href="#" class="footerLink">About Us</a>
-                    </li>
-                    <li class="footerItem">
-                        <a href="#" class="footerLink">Services</a>
-                    </li>
-                    <li class="footerItem">
-                        <a href="#" class="footerLink">Our Work</a>
-                    </li>
-                    <li class="footerItem">
-                        <a href="#" class="footerLink">Process</a>
-                    </li>
-                    <li class="footerItem">
-                        <a href="#" class="footerLink">Why Us?</a>
-                    </li>
-                    <li class="footerItem">
-                        <a href="#" class="footerLink">Our Team</a>
-                    </li>
-                    <li class="footerItem">
-                        <a href="#" class="footerLink">Contact Us</a>
-                    </li>
-                </ul>
-            </div>
-        </footer>
-        <!-- end of Footer -->
     </div>
 </body>
 
