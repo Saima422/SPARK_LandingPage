@@ -13,9 +13,7 @@ header{
   align-items: center;
   background-color: #312052;
   width: 100%;
-  /* border: 2px solid green; */
   z-index: 2;
-  /* padding-right: 0; */
 }
 
 .companyLogo > img{
@@ -25,15 +23,12 @@ header{
 
 .nav{
   width: 50vw;
-  /* margin-right: 0; */
-  /* border: 2px solid red;; */
 }
 
 .navContainer {
   display: flex;
   justify-content: space-around;
   margin-right: 40px;
-  /* z-index: 4 */
 }
 
 .navItem {
