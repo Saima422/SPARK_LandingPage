@@ -1,12 +1,11 @@
 .pageContainer{
     position: relative;
     min-height: 100vh;
-    z-index: 1;
 }
 
 /* navigation */
 header{
-  position:sticky;
+  position: sticky;
   top: 0px;
   display: flex;
   flex-wrap: wrap;
@@ -14,7 +13,9 @@ header{
   align-items: center;
   background-color: #312052;
   width: 100%;
+  /* border: 2px solid green; */
   z-index: 2;
+  /* padding-right: 0; */
 }
 
 .companyLogo > img{
@@ -24,11 +25,15 @@ header{
 
 .nav{
   width: 50vw;
+  /* margin-right: 0; */
+  /* border: 2px solid red;; */
 }
 
 .navContainer {
   display: flex;
   justify-content: space-around;
+  margin-right: 40px;
+  /* z-index: 4 */
 }
 
 .navItem {
@@ -73,8 +78,9 @@ header{
     border: none;
     border-bottom: 2px solid black;
     color: #422D6D;
-    padding: 10px 0px;
+    padding: 10px 10px;
     width: 30vw;
+    outline: none;
 }
 
 .input{
