@@ -15,12 +15,9 @@ header{
   z-index: 2;
 }
 
-.companyLogo{
-}
 
-.companyLogo > img{
+.companyLogo > a >img{
   width: 170px;
-  height: 50px;
   padding: 10px 20px;
 }
 
