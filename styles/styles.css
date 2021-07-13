@@ -358,4 +358,18 @@ hr{
         width:100%;
     }
 }
-
+@media only screen and (max-width:450px) {
+    .project-description{
+        margin:25px 0px;
+    }
+    
+}
+@media only screen and (max-width:600px){
+    .aboutus{
+        width: 85%;
+    }
+    .contactUsHeader{
+        display:inline;
+        /* margin-left: 20px; */
+    }
+}
