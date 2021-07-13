@@ -10,7 +10,6 @@
 }
 
 .why-us-heading{
-    margin: 0px;
     text-align: center;
     padding: 20px;
     font-size: 3rem;
@@ -19,6 +18,7 @@
 .why-us-content-heading{
     color: #E8537F;
     transition: color 1s ease;
+    margin: 20px 0px;
 }
 
 .why-us-content-heading:hover{
@@ -32,17 +32,17 @@
     display: flex;
     flex-wrap: wrap;
 }
+
 a{
     text-decoration: none;
 }
+
 @media only screen and (max-width:1166px){
     
     .project{
         display: flex;
-        
         flex-wrap: wrap;
     }
-    
 }
 
 @media only screen and (max-width: 590px) {
@@ -51,7 +51,7 @@ a{
     }
     .why-us-img{
         display: none;
-    }
+    } 
   }
 
   .hidden{
@@ -294,7 +294,8 @@ hr{
 
 .banner-tagline{
     margin:10px 100px;
-    font-family: 'Otomanopee One', sans-serif;
+    font-weight: bolder;
+    /* font-family: 'Otomanopee One', sans-serif; */
     text-align: center;
 }
 
@@ -306,7 +307,6 @@ hr{
     width: 50vw;
     margin: -60px auto 0;
     background-color: #E8537F;
-    /* padding-top:70px; */
 }
 
 .aboutus:hover{
@@ -358,9 +358,10 @@ hr{
         width:100%;
     }
 }
+
 @media only screen and (max-width:450px) {
-    .project-description{
-        margin:25px 0px;
+    .project-content{
+        margin:10px 0px 60px;
     }
     
 }
@@ -370,6 +371,5 @@ hr{
     }
     .contactUsHeader{
         display:inline;
-        /* margin-left: 20px; */
     }
 }
